@@ -6,6 +6,7 @@ block content
 	input(type='file' id="uploadImage")
 	- var str = JSON.stringify({name: 'Bob',age: 16}), newStr = JSON.stringify(JSON.parse(str), null, 5) //- 不能有换行
 	pre #{newStr}
+	.img-box
 	script(src = 'https://cdnjs.cloudflare.com/ajax/libs/konva/3.3.3/konva.min.js')
 	script(src = 'https://cdn.bootcss.com/axios/0.19.0-beta.1/axios.min.js')
 	script(src = '/javascripts/upload.js')
